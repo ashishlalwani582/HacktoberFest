@@ -15,6 +15,7 @@ scanf("%s",&name[i]);
 }
 for(i=0;i<n-1;i++)
 {
+  // commenting for hactoberfest
 for(j=i+1;j<n;j++)
 {
 if(strcmp(name[i],name[j])>0)
